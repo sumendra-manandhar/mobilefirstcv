@@ -427,7 +427,51 @@ img{
   grid-template-columns: 1fr max-content 1fr;
 }
 
-.education_year, .
+.education_year, .educationm_race{
+  font-size: var(--h3-font-size);
+  margin-bottom: .25rem;
+}
+
+.education_university, .education_score{
+  display: block;
+  font-size: var(--smaller-font-size);
+}
+
+.education_year, .education_university{
+  text-align: right;
+}
+
+.education_time{
+  padding: 0 1rem;
+  justify-content: center;
+}
+
+.education_rounder{
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+
+.education_rounder::before{
+  content: '';
+  position: absolute;
+  transform: translate(-4px, -4px);
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--first-color);
+  border-radius: 50%;
+}
+
+.education_line{
+  display: block;
+  height: 90%;
+  width: 2px;
+  background-color: var(--first-color);
+  transform: translate(5px, -4px);
+}
 /* ===== SERVICES =====*/
 
 
