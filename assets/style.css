@@ -183,7 +183,7 @@ img{
 }
 
 .nav_link{
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color: var(--first-color-lighten);
   font-weight: var(--font-bold);
@@ -191,7 +191,7 @@ img{
 }
 
 .nav_link:hover{
-  color: var(--text-color);
+  color: var(--first-color);
 }
 
 .nav_toggle{
@@ -209,7 +209,8 @@ img{
 
 /*Active menu*/
 .active{
-  color: var(--text-color);
+  opacity: 50%;
+  text-decoration: line-through;
 }
 
 
