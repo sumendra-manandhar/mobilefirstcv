@@ -627,6 +627,8 @@ img{
 
 }
 
+
+
 /* ===== MEDIA QUERIES=====*/
 
 @media screen and (min-width: 768px){
@@ -694,6 +696,7 @@ img{
     border-radius: .5rem;
   }
 
+  
 
 
 
