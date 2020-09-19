@@ -628,3 +628,115 @@ img{
 }
 
 /* ===== MEDIA QUERIES=====*/
+
+@media screen and (min-width: 768px){
+  .home_button{
+    width:initial;
+  }
+
+
+  .section{
+    padding: 4rem 2rem;
+  }
+
+
+  .nav_menu{
+    width: var(--nav-width);
+
+  }
+
+  .about_container,
+  .skills_container,
+  .services_container,
+  .contact_container,
+  .contact_input{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .about_data{
+    text-align: initial;
+
+  }
+
+  .about_description{
+    margin-bottom: var(--md-5);
+  }
+
+  .about_img{
+    width:220px;
+  }
+
+  .about_information{
+    padding-left: 4rem ;
+  }
+
+  .education_time{
+    padding: 0 2 rem; 
+  }
+
+  .contact_input{
+    display: grid;
+    column-gap: 1.5rem;
+  }
+
+  .contact_info{
+    padding-left: 3rem;
+  }
+
+  .footer{
+    background: none;
+    background-color: var(--first-color);
+  }
+
+  .footer.container{
+    background-color: var(--first-color);
+    padding: 3rem 0;
+    border-radius: .5rem;
+  }
+
+
+
+
+
+}
+
+@media screen and (min-width: 1024px){
+  body{
+    margin: 0;
+    padding-left: var(--nav-width);
+  }
+
+  .my-header{
+    width: 0;
+  }
+
+  .nav_toggle,
+  .nav_close,
+  .nav_logo{
+    display: none;
+  }
+
+  .nav_menu{
+    left: 0;
+  }
+
+  .home_container{
+    height: 100vh;;
+  }
+
+  .section{
+    padding: 3rem  2rem;
+  }
+
+  .bd-grid{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .services_container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+
+
+}
