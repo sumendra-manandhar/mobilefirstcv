@@ -239,9 +239,9 @@ img{
   margin-bottom: var(--md-2);
 }
 
-.home_img img{
+/* .home_img img{
   width: 155px;
-}
+} */
 
 .home_title{
   font-size: var(--h1-font-size);
