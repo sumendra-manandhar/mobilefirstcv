@@ -472,7 +472,61 @@ img{
   background-color: var(--first-color);
   transform: translate(5px, -4px);
 }
+
+
 /* ===== SERVICES =====*/
+
+.services_container{
+  row-gap: 2rem;
+}
+
+.services_content{
+  padding: 1.5rem .5rem;
+  border: 2px solid var(--first-color);
+  border-radius: .5rem;
+  text-align: center;
+}
+
+.services_icon{
+  font-size: 2rem;
+  padding: .5rem;
+  background-color: var(--first-color);
+  color: var(--first-color-lighten) ;
+  border-radius: 50%;
+  margin-bottom: var(--md-2);
+
+}
+
+.services_title{
+  font-size: 1.25rem;
+  color: var(--first-color-dark);
+  margin-bottom: var(--md-1);
+}
+
+.services_content, .services_icon, .services_description, .services_title{
+  transition: .5s;
+}
+
+.services_content:hover{
+  background-color:var(--first-color);
+}
+
+.services_content:hover .services_icon{
+  background-color:var(--first-color-lighten);
+  color: var(--first-color);
+}
+
+.services_content:hover  .services_title{
+  color: var(--first-color-lighten);
+
+}
+
+.services_content:hover  .services_description{
+  color: var(--first-color-lighten);
+
+}
+
+
 
 
 /* ===== PROJECT IN MIND  =====*/
