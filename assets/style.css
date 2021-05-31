@@ -237,10 +237,10 @@ img {
 .home_img {
   /*   padding-top: 1.3rem;
   padding-left: .8rem; */
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   background-color: var(--first-color);
-  border-radius: 50%;
+  border-radius: 10%;
   overflow: hidden;
   margin-bottom: var(--md-2);
 }
