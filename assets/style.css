@@ -240,7 +240,7 @@ img {
   width: 200px;
   height: 200px;
   background-color: var(--first-color);
-  border-radius: 10%;
+  border-radius: 50%;
   overflow: hidden;
   margin-bottom: var(--md-2);
 }
