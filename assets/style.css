@@ -166,13 +166,14 @@ img {
   position: fixed;
   top: 0;
   left: -100%;
-  width: 90%;
+  width: 70%;
   height: 100vh;
   padding: 3rem;
   display: flex;
   align-items: center;
   background-color: var(--first-color);
   transition: .5s;
+  opacity: 95%;
 }
 
 .nav_close {
