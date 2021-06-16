@@ -198,9 +198,8 @@ img {
 }
 
 .nav_link:hover {
-/*   color: var(--first-color); */
+  color: var(--first-color-light);
   
-  color : yellow;
 }
 
 .nav_toggle {
