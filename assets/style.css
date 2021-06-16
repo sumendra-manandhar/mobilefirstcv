@@ -217,8 +217,8 @@ img {
 
 /*Active menu*/
 .active {
-  color: var(--first-color);
-  opacity: 30%;
+  color: yellow;
+  opacity: 50%;
   text-decoration: line-through;
 }
 
