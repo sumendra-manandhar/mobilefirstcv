@@ -192,7 +192,7 @@ img {
 .nav_link {
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: var(--first-color-lighten);
+  color: var(--first-color-darken);
   font-weight: var(--font-bold);
   transition: .3s;
 }
