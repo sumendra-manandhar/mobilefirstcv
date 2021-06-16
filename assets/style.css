@@ -198,7 +198,7 @@ img {
 }
 
 .nav_link:hover {
-  color: var(--first-color-light);
+  color: yellow;
   
 }
 
@@ -217,7 +217,7 @@ img {
 
 /*Active menu*/
 .active {
-  color: yellow;
+   color: var(--first-color-light);
   opacity: 50%;
   text-decoration: line-through;
 }
